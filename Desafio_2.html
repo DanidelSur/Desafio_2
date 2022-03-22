@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <title>Desafio 2 "Veterinaria"</title>
+
+    
+</head>
+<body class="bg-warning p-2 text-dark bg-opacity-25" >
+
+
+<!-- Comence Agregando 5 Secciones. *un Header"Cabecera" * Menu *Div : Articulo de texto *Div : Card"Tarjeta" donde se presentan los Servicios y *Footer"Piede Pagina -->
+
+    <header id="Cabecera" class="m-2">
+        <h1 class="display-1 p-2">Veterinaria Cuki 🐕</h1>
+        <!-- Agregue una Clase de Bootstrap Display Para el Titulo -->
+    </header>
+
+    <menu id="Menu" class="m-2 border-bottom border-warning border-1">
+        <div class="container-fluid">
+            <ul class="nav justify-content-end">
+                <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Nosotros</a>
+                <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Servicios</a>
+                <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Contacto</a>
+            </ul>
+        </div>
+        <!-- Use Bootstrap para Agregar los Items de Menu *sin direccion agrega de momento -->
+    </menu>
+
+    <div id="Articulo" class="border-primary border-start border-5 rounded-3 bg-light m-2">
+        <article class="p-2 m-2" >
+            <div class="container-xxl d-flex justify-content-center">
+                <img src="https://www.mypes.pe/sites/default/files/styles/1_columna_lg/public/media/min_isite/destacado/788597-doggy-clinica-veterinaria-banner.jpg?itok=sMbxCwtF" class="img img-thumbnail rounded-pill" alt="">
+
+            </div>
+            <form>
+                <label class="lead"> 
+                    En la Veterinaria Cuki contamos con un equipo de trabajo altamente idóneo para atender a nuestros mejores amigos.
+                    Conjugamos las mejores instalaciones para la atención y el cuidado de sus mascotas, con los profesionales más capacitados en la asistencia veterinaria.
+                    La salud de nuestras mascotas es tan importante como la de cualquier integrante de la familia.
+                </label>
+                <br>
+                <p class="lead text-danger text-center pt-4 display-6"> 😸
+                    <b>Atención las 24 hs.
+                     los 365 días del año.</b>
+                </p>
+                </form>
+            </article>
+            <!-- Para la seccion de Texto. Agregue una Imagen para este Articulo
+            y ademas Sume el Texto del Desafio... utilice una clase de bootstrap para darle un texto RESALTADO para el el Ultimo Parrafo -->
+    </div>
+
+    <div id="Tarjeta" class="border-start border-5 border-primary rounded-3 m-2 ">
+        <div class="card d-flex">
+            <h3 class="card-header container text-center display-5 rounded-pill ">Servicios</h3>
+
+            <div class="card-body row ">
+                <div class="col-md-4"  >
+                    <article class="align-items-center    justify-content-center text-center">
+                        <img src="https://th.bing.com/th/id/OIP.AkHusk2ZCwRjqBc84fnPXQHaE5?pid=ImgDet&rs=1" class="m-5 img d-block rounded rounded-3 w-75 h-100 " alt=""> 
+                        <p class="lead border-top border-success rounded text-center">
+                        3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles.
+                         </p>
+                    </article>
+                </div>
+
+                <div class="col-md-4"  >
+                    <article class="align-items-center    justify-content-center text-center ">
+                        <img src="https://th.bing.com/th/id/R.cce254e511e9dd727b47d44f6ac74972?rik=sfNZ4NzfM%2ftcmQ&riu=http%3a%2f%2fwww.2000agro.com.mx%2fwp-content%2fuploads%2fveterinaria-bayer.jpg&ehk=rHy%2fzc%2fcIn3G71zx64lpROOimGA8lSPe478J1QmkJXo%3d&risl=&pid=ImgRaw&r=0" class="m-1 p-3 img d-inline-block rounded rounded-5 w-75 h-25 " alt=""> 
+                        <p class="lead border-top border-success rounded text-center">
+                            Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a 
+                            la mascota hacia nuestra clínica.
+                         </p>
+                    </article>
+                </div>
+
+                <div class="col-md-4"  >
+                    <article class="align-items-center    justify-content-center text-center">
+                        <img src="https://th.bing.com/th/id/OIP.9OPKunUuC16gQOyrK0EK6AHaE7?pid=ImgDet&rs=1" class="m-5 img d-block rounded rounded-3 w-75 h-100 " alt=""> 
+                        <p class="lead border-top border-success rounded text-center">
+                            Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología 
+                            Servicio de odontología,    limpieza de dientes por ultrasonido.
+                         </p>
+                    </article>
+                </div>
+
+                
+
+            </div>
+        
+        </div>
+
+        <!-- 
+            Aca ultilice la Clase de Card para la Seccion de Servicios. en este apartado lo separo en DIV y en Articulos para una mejor ayuda visual.
+            agregando Un Header en la Tarjeta. y Body para Los articulos... que en este caso son imagenes y texto describiendo funciones de la Profesion
+         -->
+    </div>
+
+
+    <footer id="PiePagina" class=" card rounded-pill container">
+        <div  class="row  p-2 m-2  border-end border-5 border-primary rounded-pill
+        " >
+           
+                <ul class="col-12 nav align-items-center container">
+
+                    <a href=""  class="col-md-2  nav-item mh-100 opacity-75">
+                    <img src="https://w1.pngwing.com/pngs/574/184/png-transparent-facebook-social-media-icons-noa-beach-club-black-and-white-line-area-symbol-circle.png" class="w-25 rounded-pill" alt=""> Facebook</a>
+                    <a href=""  class="col-md-2  nav-item mh-100 opacity-75"> 
+                       <img src="https://e7.pngegg.com/pngimages/640/645/png-clipart-instagram-icon-computer-icons-instagram-logo-area.png" class="w-25 rounded-pill" alt=""> Instagram</a>
+                    <a href=""  class="col-md-2  nav-item mh-100 opacity-75">
+                       <img src="https://e7.pngegg.com/pngimages/874/257/png-clipart-whatsapp-computer-icons-computer-software-whatsapp-text-logo.png" class="w-25 rounded-pill " alt=""> Whatsapp</a>
+               
+                <h1 class=" col-md-6 text-end lead "> 🏡 Veterinaria Cuki - Luis Agote 
+                    250 Bº Mirador</h1>
+                </ul>
+
+        </div>
+        <!-- 
+            Por ultimo Pie de Pagina. Donde Agregue LOS ICONOS de redes Sociales y El texto describiendo la ubicacion del lugar.
+            Utilice Bootstrap para jugar con los Breakpoints y columnas
+         -->
+    </footer>
+
+    
+<!-- En Resumen... Ulitice todo lo Aprendido con Bootstrap Para este Trabajo Estatico
+edite y mofidique varias Secciones.
+Utilice TIMEBOXING de 3 hrs. de Viernes 18.3 de 9hr a 12hr
+y 22.3 de 9hr a 11gr.
+para Finalizar subire este Archivo HTML para Mi Repositorio y pronto para compartilo en el foro del Curso...
+
+Chodilef Marcelo Daniel -->
+    
+</body>
+</html>

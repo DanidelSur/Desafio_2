@@ -11,24 +11,50 @@
 
     
 </head>
-<body class="bg-warning p-2 text-dark bg-opacity-25" >
+<body class="bg-warning text-dark bg-gradient bg-opacity-50" >
 
 
 <!-- Comence Agregando 5 Secciones. *un Header"Cabecera" * Menu *Div : Articulo de texto *Div : Card"Tarjeta" donde se presentan los Servicios y *Footer"Piede Pagina -->
 
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+            <div class="container-fluid">
+                <h1 class="display-5 p-2 text-warning">Veterinaria Cuki 🐕</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+<!-- 
     <header id="Cabecera" class="m-2">
-        <h1 class="display-1 p-2">Veterinaria Cuki 🐕</h1>
-        <!-- Agregue una Clase de Bootstrap Display Para el Titulo -->
+        <h1 class="display-1 p-2">Veterinaria Cuki 🐕</h1>  
+        Agregue una Clase de Bootstrap Display Para el Titulo
     </header>
 
-    <menu id="Menu" class="m-2 border-bottom border-warning border-1">
+ -->  <!--   <menu id="Menu" class="m-2 border-bottom border-warning border-1">
         <div class="container-fluid">
             <ul class="nav justify-content-end">
                 <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Nosotros</a>
                 <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Servicios</a>
                 <a class="nav-item p-2 m-2 btn btn-outline-warning text-dark" href="">Contacto</a>
             </ul>
-        </div>
+        </div> -->
         <!-- Use Bootstrap para Agregar los Items de Menu *sin direccion agrega de momento -->
     </menu>
 
@@ -56,36 +82,54 @@
     </div>
 
     <div id="Tarjeta" class="border-start border-5 border-primary rounded-3 m-2 ">
-        <div class="card d-flex">
+        <div class="card d-flex ">
             <h3 class="card-header container text-center display-5 rounded-pill ">Servicios</h3>
 
             <div class="card-body row ">
-                <div class="col-md-4"  >
-                    <article class="align-items-center    justify-content-center text-center shadow-lg p-3 mb-5 bg-body rounded">
-                        <img src="https://th.bing.com/th/id/OIP.AkHusk2ZCwRjqBc84fnPXQHaE5?pid=ImgDet&rs=1" class="m-5 img d-block rounded rounded-3 h-100 w-75 " alt=""> 
-                        <p class="lead border-top border-success rounded text-center">
-                        3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles.
-                         </p>
+                <div class="col-md-4">
+                    <article class="  h-100 d-inline-block align-items-center    justify-content-center  shadow-lg p-3 mb-5 bg-body rounded">
+                        <img src="https://th.bing.com/th/id/OIP.AkHusk2ZCwRjqBc84fnPXQHaE5?pid=ImgDet&rs=1" class="w-100 rounded pb-3 " alt=""  > 
+
+                        <figure class="text-center pt-5 mt-2 border-top border-success rounded">
+                            <blockquote class="blockquote">
+                                <p class="lead  ">
+                                3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles.
+                                 </p>
+
+                            </blockquote>
+                        </figure>
                     </article>
                 </div>
 
-                <div class="col-md-4"  >
-                    <article class="align-items-center    justify-content-center text-center shadow-lg p-3 mb-5 bg-body rounded">
-                        <img src="https://th.bing.com/th/id/R.cce254e511e9dd727b47d44f6ac74972?rik=sfNZ4NzfM%2ftcmQ&riu=http%3a%2f%2fwww.2000agro.com.mx%2fwp-content%2fuploads%2fveterinaria-bayer.jpg&ehk=rHy%2fzc%2fcIn3G71zx64lpROOimGA8lSPe478J1QmkJXo%3d&risl=&pid=ImgRaw&r=0" class="m-1 p-3 img d-inline-block rounded rounded-5  h-25 "    style="width: 347px;" alt=""> 
-                        <p class="lead border-top border-success rounded text-center">
-                            Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a 
-                            la mascota hacia nuestra clínica.
-                         </p>
+                <div class="col-md-4">
+                    <article class="  h-100 d-inline-block  align-items-center    justify-content-center  shadow-lg p-3 mb-5 bg-body rounded">
+                        <img src="https://th.bing.com/th/id/R.cce254e511e9dd727b47d44f6ac74972?rik=sfNZ4NzfM%2ftcmQ&riu=http%3a%2f%2fwww.2000agro.com.mx%2fwp-content%2fuploads%2fveterinaria-bayer.jpg&ehk=rHy%2fzc%2fcIn3G71zx64lpROOimGA8lSPe478J1QmkJXo%3d&risl=&pid=ImgRaw&r=0" class="w-100  rounded pb-3"  alt=""> 
+                        
+                        <figure class="text-center pt-5 mt-2 border-top border-success rounded">
+                            <blockquote class="blockquote">
+                                <p class="lead  ">
+                                    Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a 
+                                    la mascota hacia nuestra clínica.
+                                 </p>                          
+                            </blockquote>                        
+                        </figure>
+
                     </article>
                 </div>
 
-                <div class="col-md-4"  >
-                    <article class="align-items-center    justify-content-center text-center shadow-lg p-3 mb-5 bg-body rounded">
-                        <img src="https://th.bing.com/th/id/OIP.9OPKunUuC16gQOyrK0EK6AHaE7?pid=ImgDet&rs=1" class="m-5 img d-block rounded rounded-3 h-100 w-75 " alt=""> 
-                        <p class="lead border-top border-success rounded text-center">
-                            Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología 
-                            Servicio de odontología,    limpieza de dientes por ultrasonido.
-                         </p>
+                <div class="col-md-4">
+                    <article class="  h-100 d-inline-block  align-items-center    justify-content-center  shadow-lg p-3 mb-5 bg-body rounded">
+                        <img src="https://th.bing.com/th/id/OIP.9OPKunUuC16gQOyrK0EK6AHaE7?pid=ImgDet&rs=1" class="w-100 rounded pb-3 " alt=""  >
+                        
+                        <figure class="text-center pt-5 mt-2 border-top border-success rounded">
+                            <blockquote class="blockqoute">
+                                <p class="lead  ">
+                                    Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología 
+                                    Servicio de odontología,    limpieza de dientes por ultrasonido.
+                                 </p>
+
+                            </blockquote>
+                        </figure>
                     </article>
                 </div>
 
@@ -102,22 +146,30 @@
     </div>
 
 
-    <footer id="PiePagina" class=" card rounded-pill container">
-        <div  class="row  p-2 m-2  border-end border-5 border-primary rounded-pill
+    <footer id="PiePagina" class=" card rounded-pill container p-2">
+        <div  class="row  border-end border-5 border-primary rounded-pill
         " >
            
-                <ul class="col-12 nav align-items-center container clearfix">
+                <ul class="col-12 nav align-items-center justify-content-center">
 
-                    <a href=""  class="col-sm-1  nav-item  opacity-75">
-                        <img src="https://w1.pngwing.com/pngs/574/184/png-transparent-facebook-social-media-icons-noa-beach-club-black-and-white-line-area-symbol-circle.png" class=" rounded-pill d-block" style="width: 40px;" alt=""></a>
-                    <a href=""  class="col-sm-1  nav-item  opacity-75"> 
-                       <img src="https://e7.pngegg.com/pngimages/640/645/png-clipart-instagram-icon-computer-icons-instagram-logo-area.png" class=" rounded-pill d-block" style="width: 50px;" alt=""></a>
-                    <a href=""  class="col-sm-1  nav-item  opacity-75">
-                       <img src="https://e7.pngegg.com/pngimages/874/257/png-clipart-whatsapp-computer-icons-computer-software-whatsapp-text-logo.png" class=" rounded-pill d-block " style="width: 43px;" alt=""></a>
+                    <a href=""  class="col-sm-2   nav-item  opacity-75">
+                        <img src="https://w1.pngwing.com/pngs/574/184/png-transparent-facebook-social-media-icons-noa-beach-club-black-and-white-line-area-symbol-circle.png"
+                        
+                        class="rounded-pill mx-auto d-block " style="width: 40px;" alt=""></a>
 
-                    <div class="col-sm-3"></div>
+                    <a href=""  class="col-sm-2   nav-item  opacity-75"> 
+                       <img src="https://e7.pngegg.com/pngimages/640/645/png-clipart-instagram-icon-computer-icons-instagram-logo-area.png" 
+                       
+                       class="rounded-pill mx-auto d-block " style="width: 47px;" alt=""></a>
+
+                    <a href=""  class="col-sm-2   nav-item  opacity-75">
+                       <img src="https://e7.pngegg.com/pngimages/874/257/png-clipart-whatsapp-computer-icons-computer-software-whatsapp-text-logo.png" 
+                       
+                       class="rounded-pill mx-auto d-block " style="width: 40px;" alt=""></a>
+
+                   <!--  <div class="col-sm-3"></div> -->
                
-                <p class=" col-6 text-end lead"> 🏡 Veterinaria Cuki - Luis Agote 
+                <p class=" col-sm-6 text-end lead fs-5"> 🏡 Veterinaria Cuki - Luis Agote 
                     250 Bº Mirador</p>
                 </ul>
 
@@ -137,5 +189,8 @@ para Finalizar subire este Archivo HTML para Mi Repositorio y pronto para compar
 
 Chodilef Marcelo Daniel -->
     
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
